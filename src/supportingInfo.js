@@ -11,7 +11,7 @@ function FamilyInfoText(props){
       );
     case "Carter":
       return(
-        <p>The Carter branch of the family comes from many places. The Carters (originally mostly British in Virginia) come from Missouri via Oregon, while the Valentines are from New York, descending from the earliest Dutch and English settlers of New Amsterdam (New York). The Chapmans lead back to a rich set of English ancestors from New England who arrived during the Great Migration (1620-1650). For example, through the Chapman branch we share common ancestors with President John Adams (Susannah Hawkes and William Cogswell), Lady Diana (Keziah Hibbard and Caleb Bishop), and Johnny Appleseed (Mary Symonds and Edward Chapman). We also descend from the reverend whos served as official minister of the Salem church (Nicholas Noyes) during the witch trials. We even have a haunted BnB in our family in Bethel, Maine. </p>
+        <p>The Carter branch of the family comes from many places. The Carters (originally mostly British in Virginia) come from Missouri via Oregon, while the Valentines are from New York, descending from the earliest Dutch and English settlers of New Amsterdam (New York). The Chapmans lead back to a rich set of English ancestors from New England who arrived during the Great Migration (1620-1650). For example, through the Chapman branch we share common ancestors with President John Adams (Susannah Hawkes and William Cogswell), Lady Diana (Keziah Hibbard and Caleb Bishop), and Johnny Appleseed (Mary Symonds and Edward Chapman). We also descend from the reverend who served as official minister of the Salem church (Nicholas Noyes) during the witch trials. We even have a haunted BnB in our family in Bethel, Maine. </p>
       );
     case "Martin":
       return(
