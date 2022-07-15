@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/famtree/static/css/main.113b1dca.css",
+    "main.js": "/famtree/static/js/main.df21d91a.js",
+    "static/js/787.39b7175a.chunk.js": "/famtree/static/js/787.39b7175a.chunk.js",
+    "static/media/OatesPic1.jpg": "/famtree/static/media/OatesPic1.d133de6f0485a4a9229c.jpg",
+    "static/media/JonesHowell.jpg": "/famtree/static/media/JonesHowell.891a4ca9735d4cf004a7.jpg",
+    "static/media/HomeTree.png": "/famtree/static/media/HomeTree.ba12adfd6d4cee76ccbb.png",
+    "static/media/JonesTree.png": "/famtree/static/media/JonesTree.bc1b7c0e2a59a5008492.png",
+    "static/media/StuartTree.png": "/famtree/static/media/StuartTree.ccbf2d1152195fe4ecc1.png",
+    "static/media/CarterTree.png": "/famtree/static/media/CarterTree.9bc170c1f764dd862022.png",
+    "static/media/FryTree.png": "/famtree/static/media/FryTree.cb9245e21a1fee5254a8.png",
+    "static/media/MartinTree.png": "/famtree/static/media/MartinTree.766b201233337b07bd56.png",
+    "static/media/DavisTree.png": "/famtree/static/media/DavisTree.b7c7f81351195bd3cc03.png",
+    "static/media/chapmaninn.jpg": "/famtree/static/media/chapmaninn.921435f676d728fa783e.jpg",
+    "static/media/IrbyTree.png": "/famtree/static/media/IrbyTree.a4ccfa2e7abdda8886f1.png",
+    "static/media/OatesTree.png": "/famtree/static/media/OatesTree.72b644485721d01bac02.png",
+    "static/media/cornwallmine.jpg": "/famtree/static/media/cornwallmine.a38e6a661a8be9154c3f.jpg",
+    "index.html": "/famtree/index.html",
+    "main.113b1dca.css.map": "/famtree/static/css/main.113b1dca.css.map",
+    "main.df21d91a.js.map": "/famtree/static/js/main.df21d91a.js.map",
+    "787.39b7175a.chunk.js.map": "/famtree/static/js/787.39b7175a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.113b1dca.css",
+    "static/js/main.df21d91a.js"
+  ]
+}
