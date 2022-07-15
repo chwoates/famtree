@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React,{ useState } from "react";
 import './App.css';
+import PageHeader from './JSFiles/pageHeader';
+import MainBody from './mainBody';
+import FrontPage from './frontPage';
 
 function App() {
+  const[headerName,setHeaderName]=useState("Oates");
+  const[logInSuccessful, setLogInSuccessful]=useState(false);
+  if(!logInSuccessful){
+    return (
+      <>
+        <FrontPage logInSuccessful={logInSuccessful} setLogInSuccessful={setLogInSuccessful} />
+      </>
+    );
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <PageHeader fCurrName={headerName} />
+      <MainBody headerName={headerName} setHeaderName={setHeaderName}/>
+    </>
   );
 }
-
 export default App;

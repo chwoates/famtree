@@ -1,0 +1,16 @@
+.button-design{
+  background-color:  #5c77b6;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.button-design:hover{
+  background-color: blue;
+  cursor: pointer;
+}

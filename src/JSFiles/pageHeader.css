@@ -1,0 +1,17 @@
+.oates-header{
+  background-color:  #5c77b6;
+  color: white;
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+.image-specs{
+  height: 90px;
+  align-items: center;
+}
