@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/famtree/static/css/main.113b1dca.css",
-    "main.js": "/famtree/static/js/main.df21d91a.js",
+    "main.js": "/famtree/static/js/main.f8612afc.js",
     "static/js/787.39b7175a.chunk.js": "/famtree/static/js/787.39b7175a.chunk.js",
     "static/media/OatesPic1.jpg": "/famtree/static/media/OatesPic1.d133de6f0485a4a9229c.jpg",
     "static/media/JonesHowell.jpg": "/famtree/static/media/JonesHowell.891a4ca9735d4cf004a7.jpg",
@@ -18,11 +18,11 @@
     "static/media/cornwallmine.jpg": "/famtree/static/media/cornwallmine.a38e6a661a8be9154c3f.jpg",
     "index.html": "/famtree/index.html",
     "main.113b1dca.css.map": "/famtree/static/css/main.113b1dca.css.map",
-    "main.df21d91a.js.map": "/famtree/static/js/main.df21d91a.js.map",
+    "main.f8612afc.js.map": "/famtree/static/js/main.f8612afc.js.map",
     "787.39b7175a.chunk.js.map": "/famtree/static/js/787.39b7175a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.113b1dca.css",
-    "static/js/main.df21d91a.js"
+    "static/js/main.f8612afc.js"
   ]
 }
