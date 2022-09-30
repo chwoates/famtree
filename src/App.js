@@ -1,24 +1,40 @@
-import React,{ useState } from "react";
+import React from "react";
 import './App.css';
 import PageHeader from './JSFiles/pageHeader';
 import MainBody from './mainBody';
 import FrontPage from './frontPage';
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 
-function App() {
-  const[headerName,setHeaderName]=useState("Oates");
-  const[logInSuccessful, setLogInSuccessful]=useState(false);
-  if(!logInSuccessful){
+function App(props) {
+ 
+  if(!props.loginSuccessful){
     return (
       <>
-        <FrontPage logInSuccessful={logInSuccessful} setLogInSuccessful={setLogInSuccessful} />
+        <FrontPage/>
       </>
     );
   }
   return (
     <>
-      <PageHeader fCurrName={headerName} />
-      <MainBody headerName={headerName} setHeaderName={setHeaderName}/>
+      <PageHeader/>
+      <MainBody/>
     </>
   );
 }
-export default App;
+
+App.propTypes = {
+  loginSuccessful : PropTypes.bool,
+}
+
+function mapStateToProps (state) {
+  return {
+    loginSuccessful: state.loginSuccessful,
+  }
+}
+
+function mapDispatchToProps (dispatch) {
+  return {
+  }  
+}
+export default connect(mapStateToProps,mapDispatchToProps) (App);

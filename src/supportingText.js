@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 
 function FamilyTreeText(props){
 
-  switch(props.text){
+  switch(props.fname){
     case "Oates":
       return(
         <p>The Oates branch of the family comes from Cornwall in the southwest of Britain.</p>
@@ -42,4 +44,21 @@ function FamilyTreeText(props){
       );
     }
 }
-export default FamilyTreeText
+
+FamilyTreeText.propTypes = {
+  fname: PropTypes.string,
+}
+
+function mapStateToProps (state) {
+  return {
+    fname: state.currPage,
+  }
+}
+
+function mapDispatchToProps (dispatch, value) {
+  return {
+  
+    } 
+  }
+
+export default connect(mapStateToProps,mapDispatchToProps) (FamilyTreeText)
